@@ -1,7 +1,7 @@
 # Enterprise Code Repository
 
 This repository contains curated components extracted from a broader working environment.  
-Only the `python/` and `sql/` directories are included based on compliance, security, and 
+Only the `python/`, `R/` and `sql/` directories are included based on compliance, security, and 
 version‑control governance requirements.
 
 ---
@@ -12,8 +12,8 @@ version‑control governance requirements.
 |----------|----------|
 | **python/** | Python modules, ETL pipelines, notebooks, utilities, unit tests, and service wrappers. |
 | **sql/** | Database objects including schema migrations, stored procedures, views, DDL/DML scripts. |
-| **Powershell/** | Database objects including schema migrations, stored procedures, views, DDL/DML scripts. |
-| **R/** | R scripts .... DDL/DML scripts. |
+| **Powershell/** | tentative Windows scripts. |
+| **R/** | R scripts .... for BioResource processes /DML scripts. |
 
 All other top‑level directories from the original workspace (e.g., `PowerShell/`, `R/`, `data/`, 
 `eclipse/`, `github/`) are **explicitly excluded** from version control.

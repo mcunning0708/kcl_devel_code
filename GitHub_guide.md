@@ -25,7 +25,7 @@ Use:
 ```bash
 git status
 
-his shows:
+this shows:
 
 modified files
 new files
@@ -34,18 +34,28 @@ whether anything is staged
 whether anything is committed
 
 
-3. Review Exact Changes Before Committing
+## 3. Review Exact Changes Before Committing
 To see what changed:
-Shellgit diffShow more lines
+```bash
+git diff
+
 To review a specific file:
-Shellgit diff path/to/fileShow more lines
+```bash
+git diff path/to/fileS
+
 This ensures you know what you’re about to commit.
 
-4. Stage Only the Changes You Want
+## 4. Stage Only the Changes You Want
 Stage everything:
-Shellgit add .Show more lines
+```bash
+git add .
 OR stage folders/files one by one:
-Shellgit add python/git add sql/git add R/git add PowerShell/Show more lines
+```bash
+git add python/
+git add sql/
+git add R/
+git add PowerShell/
+
 Check staging again:
 Shellgit statusShow more lines
 Staged files appear in green.

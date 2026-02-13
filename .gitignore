@@ -45,6 +45,7 @@
 **/.Rhistory
 **/.RData
 **/.Rproj.user/
+R/credentials/
 
 #############################################
 # POWERSHELL HYGIENE
